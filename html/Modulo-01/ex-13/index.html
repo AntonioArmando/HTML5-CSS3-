@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            color: aliceblue;
+        }
+        p{
+            color: aliceblue;
+        }
+
+        strong{
+            color: #13f913;
+        }
+        P{
+            text-align: justify;
+        }
+        .capa{
+            display: block;
+            margin: auto;
+            text-align: center;
+
+        }
+        h4{
+            color: white;
+        }
+        span {
+            color: lawngreen;
+        }
+
+
+        .musica{
+            background-color: #000000;
+            color: white;
+            text-align: center;
+        }
+    </style>
+    <title>audio</title>
+</head>
+<body>
+    <h1>AUDIO </h1>
+    <P>colocamos o audio usando a tag &lt;audio&gt; junto com a tag &lt;source&gt;. <br> no audio usamos o source para colocarmos deferentes formatos de audio para que seja compatível com deferentes navegadores. a tag audio tem que receber os parâmetros <strong><span> preload, autoplay, muted, controls</span></strong><BR></BR> NESTE CÓDIGO DEI UMA BRINCADA COM CSS <br></P>
+
+
+    <hr>
+    <p class="capa">
+        <picture>
+            <source media="(max-width: 200px)" srcset="Carla/200x143.png" type="image/png">
+        
+            <source media="(max-width: 300px)" srcset="Carla/300x215.png" type="image/png">
+        
+            <source media="(max-width: 400px)" srcset="Carla/400x287.png" type="image/png">
+        
+            <source media="(max-width: 520px)" srcset="Carla/500x358.png" type="image/png">
+        
+            <source media="(max-width: 620px)" srcset="Carla/600x430.png" type="image/png">
+        
+            <source media="(max-width: 750px)" srcset="Carla/720x516.png" type="image/png">
+
+            <source media="(max-width: 890px)" srcset="Carla/850x610.png" type="image/png">
+
+            <img src="Carla/carla.png" alt="carla">
+        </picture>
+    </p>
+
+   
+
+        
+    
+    <p class="musica">
+        <em class="f_t">Carla Morrison - Todo Pasa <br></em>
+        
+           <audio controls  preload="metadata" >
+            <source src="Carla/Carla Morrison - Todo Pasa.mp3" type="audio/mpeg">
+            <source src="Carla/Carla Morrison - Todo Pasa.ogg" type="audio/ogg">
+           </audio>
+    </p>
+<hr>
+<hr>
+    <p>
+        <picture>
+            <source media="(max-width: 200px)" srcset="ola/200x199.png" type="image/png">
+
+            <source media="(max-width: 310px)" srcset="ola/300x299.png" type="image/png">
+
+            <source media="(max-width: 410px)" srcset="ola/400x399.png" type="image/png">
+
+            <source media="(max-width: 510px)" srcset="ola/500x498.png" type="image/png">
+
+            <source media="(max-width: 610px)" srcset="ola/600x598.png" type="image/png">
+
+            <source media="(max-width: 730px)" srcset="ola/720x718.png" type="image/png">
+
+            <source media="(max-width: 900px)" srcset="ola/850x848.png" type="image/png">
+
+
+            <img src="ola/grande.png" alt="capa">
+        </picture>
+    </p>
+    <p class="musica">
+        <em>CINIMIN_Hello_Baby_ft._Julia_Church</em> <br>
+        <audio preload="metadata" autoplay controls>
+
+            <source src="ola/CINIMIN_Hello_Baby_ft._Julia_Church.m4a" type="audio/ogg">
+
+            <source src="ola/CINIMIN_Hello_Baby_ft._Julia_Church.mp3" type="audio/mpeg">
+        </audio>
+    </p>
+    <hr>
+</body>
+</html>

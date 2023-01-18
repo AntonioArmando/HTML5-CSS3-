@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+header:hover > p {
+    display: block;
+}
+
+nav:hover > p {
+    display: block;
+}
+main:hover > p {
+    display: block;
+}
+main > article:hover > p{
+    display: block;
+}
+
+main > article > aside:hover > p {
+    display: block;
+}
+
+aside:hover > p{
+    display: block;
+}
+
+section:hover > p{
+    display: block
+}
+
+footer:hover > p{
+    display: block;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        h1,p,h2{
+            color: aliceblue;
+        }
+        span{
+            color: aqua;
+        }
+        .aviso{
+            font-size: 1.5em;
+            color:rgb(0, 255, 34);
+        }
+    </style>
+</head>
+<body>
+    <h1>video em html5</h1>
+    <p>colocar video noma pagina web e fácil  usa se a tag<span> &lt;video&gt;</span> e a <span>&lt;source&gt;</span>, a source posibilita  colocar varios formatos para ter compatibilidades com varios navegadores! </p>
+
+
+    <h2>videos no proprio servidor </h2>
+    <p><span class="aviso">nao recomendado! </span> divido ao alto consumo de dados, nao vou ir fundo nesse asunto pois nao vou usar o metodo pra <q>nada</q>. </p>
+    <hr>
+    <video width="75%" muted controls autoplay preload="metadata">
+        <source src="video/Html.mkv"  type="">
+
+        <source src="video/Html.mov" type="">
+
+        <source src="video/Html.mp4" type="">
+
+        <source src="video/Html.wmv" type="">
+    </video>
+    <hr>
+
+    <h2>video externos</h2>
+    <p>podemos incorporar videos de sites como por exemplo YouTube  e o vuclip, <span class="aviso">recomendado!</span> pelo economía no consumo de banda. para tal basta abrir o video ,clique em compartilhar e seleccionar   a opção incorporar, copiar o código  e colar no seu codigo html</p>
+    <hr>
+
+    <iframe width="78%" height="78%" src="https://www.youtube.com/embed/2J7xlDH4QkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+    <hr>
+
+</body>
+</html>

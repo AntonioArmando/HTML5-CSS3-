@@ -1,0 +1,92 @@
+@charset "utf8";
+*{
+    text-align: justify;
+}
+@font-face {
+    font-family: colombo;
+    src: url(fontes/SlugsRacer-rgP4K.ttf);
+}
+@font-face {
+    font-family: manuscrito;
+    src: url(mano/MartinezGauttaro-L3jE4.otf);
+}
+@font-face {
+    font-family: mit;
+    src: url(fontes/VintageQueens-PersonalUse.ttf);
+}
+main{
+    background-color: whitesmoke;
+    margin: auto;
+
+    min-width: 350px;
+    max-width: 700px;
+    text-indent: 7px;
+}     
+.mono{
+    font-family:  monospace;
+    font-size: 1.2em;
+}
+article{
+    background-image: linear-gradient(70deg, black 40%,  #102c07);
+    color: azure;
+    max-width: 97%;
+    margin: auto;
+}
+.prime{
+    text-align: center;
+}
+.prim{
+    font-family: mit;
+    font-size: 3.4em;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.a1,.a6{
+    color: #27a1ca;
+}
+.a2,.a7{
+    color: #21ac44;
+}
+.a3,.a8{
+    color: #7a9a1b;
+}
+.a4,.a9{
+    color: #8c3c22;
+}
+.a5,.a10{
+    color: #895f12;
+}
+
+
+.a11{
+    color: #398a8a;
+}
+.a12{
+    color: #7474cc;
+}
+.a13{
+    color: #592d33;
+}
+
+body{
+    background-image: linear-gradient(60deg, #FF00BF, #4000FF);
+    background-color: black;
+}
+main{
+    
+}
+h2,h3{
+    font-family: colombo;
+    font-weight: lighter;
+    color:     #00BFFF
+    ;
+}
+p{
+    font-family: manuscrito;
+    font-size: 1.5em;
+       font-weight: lighter;
+}
+.prim{
+    text-align: center;
+}

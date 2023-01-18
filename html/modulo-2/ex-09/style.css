@@ -1,0 +1,103 @@
+@charset "ut-8";
+
+*{
+    text-align: justify;
+}
+p{
+    display: none;
+}
+h1{
+    text-align: center;
+    color: #d6d5d3;
+    
+}
+
+@font-face {
+    font-family: feliz;
+    src: url(font/Flexi_IBM_VGA_True.ttf);
+}
+@font-face {
+    font-family: quero;
+    src: url(font/Iteganyagihe.ttf);
+}
+@font-face {
+    font-family: que;
+    src: url(font/MoralessChestera-X3jEK.otf);
+}
+@font-face {
+    font-family: seja;
+    src: url(font/TheRanch-Yzjqo.ttf);
+}
+cor{
+    #5E50A7 #5099A7 #50A75E #99A750 #A75E50 #A75099
+}
+body{
+    background-image: linear-gradient(to bottom,  #5E50A7,#50A75E,#A75099);
+}
+
+div{
+    background-color: #d6d5d3;
+    border: 4px solid black;
+   padding-top: 2px;
+}
+header{
+    
+    border: 4px solid black ;
+    width: 98%;
+    margin: auto;
+    margin-bottom: 2px;
+}
+nav{
+
+    border: 4px solid black ;
+    width: 98%;
+    margin: auto;
+    margin-bottom: 2px;
+    
+}
+main{
+    border: 4px solid black;
+    width: 98%;
+    margin: auto;
+}
+.reto{
+    border: 4px solid  black;
+    width: 98%;
+    margin: auto;
+    
+}
+.agu{
+    display: inline-block;
+    width: 50%;
+    border: 4px solid black;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+
+}
+.anglo{
+  
+    border: 4px solid black;
+    display: inline-block;
+    margin: 2px;
+    margin-bottom: 2px;
+}
+.aside2{
+    border: 4px solid black;
+    width: 41%;
+    display: inline-block;
+    padding: 60px 4px 4px 0px;
+   
+}
+section{
+    border: 4px solid black;
+    width: 98%;
+    margin: auto;
+    margin: 2px;
+}
+footer{
+    width: 98%;
+    border: 4px solid black;
+    margin: 2px;
+}
+
