@@ -40,4 +40,5 @@ article{
 span{
     color: lime;
     background-color: black;
+    max-width: 700px;
 }
