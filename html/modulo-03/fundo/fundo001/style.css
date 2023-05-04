@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+body{
+    background-color: #000000;
+}
+
+main{
+    max-width: 700px;
+    text-align: center;
+    background-image: url(../imagens/pattern001.png);
+}
+h1{
+    color: white;
+}
+.quadrado{
+    display: inline-block;
+    border: 2px solid black;
+    width: 30%;
+    height: 200px;
+
+    background-color: slategrey;
+    border-radius: 10px;
+
+}
+
+#o2{
+    background-image: linear-gradient(to bottom, #f04208 40%,lime );
+}
+#o3{
+    background-image: url(../imagens/pattern003.png);
+}
