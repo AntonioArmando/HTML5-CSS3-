@@ -7,10 +7,12 @@ body{
 main{
     max-width: 700px;
     text-align: center;
+    margin: auto;
     background-image: url(../imagens/pattern001.png);
+    border-radius: 15px 15px 0px 0px;
 }
 h1{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .quadrado{
     display: inline-block;
@@ -28,4 +30,14 @@ h1{
 }
 #o3{
     background-image: url(../imagens/pattern003.png);
+}
+
+article{
+    text-align: justify;
+    background-color: whitesmoke;
+    border-radius: 0px 0px 10px 10px;
+}
+span{
+    color: lime;
+    background-color: black;
 }
