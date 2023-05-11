@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+header{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+a{
+    color: white;
+}
