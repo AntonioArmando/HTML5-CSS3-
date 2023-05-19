@@ -1,8 +1,17 @@
 @charset "utf-8";
 
-*{
-    line-height: 2em;
+@font-face {
+    font-family: titulo;
+    src: url(../fontes/BebasNeue-Regular.ttf);
 }
+@font-face {
+    font-family: mano;
+    src: url(../fontes/GreatVibes-Regular.otf);
+}
+*{
+    line-height: 2.2em;
+}
+
 body{
     background-color: #030101;
 }
@@ -11,6 +20,10 @@ header{
     color: white;
     background-color: black;
     text-align: center;
+}
+h1{
+    font-family: titulo;
+    font-size: 2.5em;
 }
 
 a{
@@ -25,12 +38,12 @@ main{
     max-width: 660px;
     background-color: white;
     margin: auto;
+    font-family: mano;
+    font-size: 1.7em;
     
 }
-section{
-    padding: 10px ;
-    padding-left: 20px;
-    height: 70vh;
+section >p{
+    padding-left: 1.5em;
 }
 
 .bgi{
