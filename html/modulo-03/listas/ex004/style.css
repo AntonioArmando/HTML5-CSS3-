@@ -9,6 +9,7 @@ body{
 table{
     border-collapse: collapse;
     text-align: center;
+    margin-left: 20px;
 }
 table > caption {
     font-size: 2em;
