@@ -1,0 +1,114 @@
+@charset "utf-8";
+*{
+    margin: 0%;
+}
+
+body{
+    min-width: 400px;
+    margin: auto; 
+}
+body > h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px;
+}
+
+code > h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 0%;
+    font-variant: small-caps;
+    font-size: 2em;
+
+}
+pre{
+   
+    background-image: linear-gradient(to right, black 45%,#08b008);
+    color: aliceblue;
+    line-height: 200%;
+    margin:0px;
+    margin-right: 6px;
+    margin-left: 6px;
+
+    
+}
+main{
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+}
+main >h2{
+    font-variant: small-caps;
+    font-size: 2em;
+    margin: 5px;
+}
+table{
+    border-collapse: collapse;
+}
+table > caption{
+    font-size: 110%;
+    margin: auto;
+    background-color: #494747;
+    padding: 7px;
+}
+th{
+    margin: auto;
+    border: 2px solid;
+    padding: 5px;
+}
+thead > tr > td.prtotal{
+    border: 2px solid white;
+    text-align: right;
+}
+
+thead >  tr > th.pro{
+    border-bottom: 2px solid transparent;
+
+}
+thead > tr th.provicia{
+    vertical-align: top;
+}
+
+thead > tr > th.sexo{
+    text-align: left;
+    border-left: 0px;
+    padding-left: 0px;
+}
+
+thead > tr > th.gambiara{
+    text-align: right;
+   border-top: 2px solid white;
+   border-bottom: 2px solid white;
+   border-right: 0px solid transparent;
+   padding-right:0px ;
+}
+
+
+tbody > tr > td{
+    border: 2px solid black);
+    text-align: right;
+    padding: 11px;
+
+}
+tbody > tr:nth-child(2n){
+    background-color: #494747;
+    color: white;
+}
+tbody > tr:nth-child(2n+1){
+    background-color: white;
+    color: black;
+}
+tfoot > tr > th,td{
+    border:2px solid white;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+text-align: right;
+}
+tfoot > tr >th{
+    text-align: center;
+}
+span{
+    color: aqua;
+}

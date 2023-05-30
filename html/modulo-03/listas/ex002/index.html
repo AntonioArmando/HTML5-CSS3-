@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas grandes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tabelas Semática</h1>
+    <header>
+        
+        <code>
+            <h2>Hierarquia Estrutural De Tabelas</h2>
+            <pre>
+                &lt;table&gt;
+                    &lt;caption> -- titulo da tabela
+                    &lt;thead> -- cabeçalho da tabela
+                    &lt;tbody> -- corpo da tabela
+                    &lt;tfoot> -- pe da tabela
+                &lt;/table>
+
+                <span>&lt;style></span>
+                    <span>tr:nth-child(2n) --- faz enfeito<br>                    zebra de duas em duas linhas.</span>
+                <span>&lt;/style></span>
+            </pre>
+        </code>
+    
+    </header>
+
+    <main>
+        <h2>Exemplo tabela semática</h2>
+        <table>
+            <caption>População Moçambicana para 2021</caption>
+
+            <thead>
+                <tr>
+                    <th class="pro" scope="col"></th>
+                    <th class="gambiara" scope="col">Se</th>
+                    <th class="sexo" scope="col">xo</th>
+                    <th scope="col">Total</th>
+                </tr>
+                <tr>
+                    <th class="provicia" scope="col">Províncias</th>
+                    <th scope="col">masculino</th>
+                    <th scope="col">feminino</th>
+                    <td class="prtotal">11</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Niassa</th>
+                    <td>1,002,495</td>
+                    <td>1,062,150</td>
+                    <td>2,064,645</td>
+                </tr>
+                
+                
+                <tr>
+                    <th scope="row">Cabo Delgado</th>
+                    <td>1,262,685</td>
+                    <td>1,334,331</td>
+                    <td>2,597,016</td>
+                </tr>
+                
+                <tr>
+                    <th scope="row">Nampula</th>
+                    <td>3,088,202</td>
+                    <td>3,246,919</td>
+                    <td>6,335,121</td>
+                </tr>
+                
+                <tr>
+                    <th scope="row">Zambézia</th>
+                    <td>3,088,202</td>
+                    <td>2,961,004</td>
+                    <td>5,709,418</td>
+                </tr>
+                
+                <tr>
+                    <th scope="row">Tete</th>
+                    <td>1,469,375</td>
+                    <td>1,519,883</td>
+                    <td>2,989,258</td>
+                </tr>
+                
+                <tr>
+                    <th scope="row">Manica</th>
+                    <td>1,048,014</td>
+                    <td>1,126,418</td>
+                    <td>2,174,432</td>
+                </tr>
+                
+                
+                <tr>
+                    <th scope="row">Sofala</th>
+                    <td>1,229,872</td>
+                    <td>1,298,570</td>
+                    <td>2,528,442</td>
+                </tr>
+                
+                <tr>
+                    <th scope="row">Inhambane</th>
+                    <td>716,772</td>
+                    <td>831,134</td>
+                    <td>1,547,906</td>
+                </tr>
+                
+                
+                <tr>
+                    <th scope="row">Gaza</th>
+                    <td>662,292</td>
+                    <td>793,258</td>
+                    <td>1,455,550</td>
+                </tr>
+                
+                <tr>
+                    <th scope="row">Maputo Província</th>
+                    <td>1,109,728</td>
+                    <td>1,193,163</td>
+                    <td>2,302,891</td>
+                </tr>
+                
+                
+                <tr>
+                    <th scope="row">Maputo Cidade</th>
+                    <td>547,938</td>
+                    <td>579,627</td>
+                    <td>1,127,565</td>
+                </tr>
+                
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">Todas Províncias</th>
+                    <td>9.938.474</td>
+                    <td>94.8726.39</td>
+                    <td>63.672.872.637</td>
+
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    
+</body>
+</html>
