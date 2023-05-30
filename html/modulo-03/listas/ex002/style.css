@@ -45,6 +45,7 @@ main >h2{
 }
 table{
     border-collapse: collapse;
+    position: relative;
 }
 table > caption{
     font-size: 110%;
@@ -82,6 +83,11 @@ thead > tr > th.gambiara{
    border-bottom: 2px solid white;
    border-right: 0px solid transparent;
    padding-right:0px ;
+}
+thead > tr > th,td.prtotal{
+    position: sticky;
+   top: -2px;
+   background-color: #000000;
 }
 
 
