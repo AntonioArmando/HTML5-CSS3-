@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+body{
+    background-color: #919191;
+    min-width: 500px;
+    min-height: 2000px;
+}
+
+body > h2{
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 1.6em;
+}
+body > h2 > span{
+    font-size: 1.5em;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+table > thead > tr > th{
+    border: 2px solid;
+    padding: 5px;
+}
+
+table > tbody > tr > th{
+    border: 2px solid;
+    padding: 5px;
+}
+table > tbody > tr > td{
+    border: 2px solid;
+    padding: 5px;
+}
