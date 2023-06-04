@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+body{
+    background-color: #818486;
+}
+body > h1 > span{
+    font-size: 2em;
+}
+body > h1{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+}
+table > thead{
+    background-color: #b9b8b8;
+}
+
+
+table > thead > tr > th{
+    border: 2px solid;
+    padding: 5px;
+}
+
+table > tbody tr td{
+    border: 2px solid;
+}
+
+table > tbody > tr > td.media{
+    background-color: #b9b8b8;
+    text-align: left;
+}
+
+table > tbody > tr > td#media,td#media2{
+    text-align: center;
+}

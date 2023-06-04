@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio d tabelas parte 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><span>D</span>esafio de tabelas 002</h1>
+
+    <table>
+        <caption>boletim de notas</caption>
+
+        <thead>
+            <tr>
+                <th rowspan="2" scope="row">Areias</th>
+                <th rowspan="2" scope="row">Disciplina</th>
+                <th colspan="2" scope="rowgroup">Notas</th>
+                <th rowspan="2" scope="row">Media</th>
+            </tr>
+            <tr>
+                <th scope="row">fase 2</th>
+                <th scope="row">fase 2</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="3">Exatas</td>
+                <td>Matemática</td>
+                <td>15</td>
+                <td>14</td>
+                <td>14</td>
+            </tr>
+
+            <tr>
+                <td>fisica </td>
+                <td>8</td>
+                <td>12</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td>BIologia</td>
+                <td>7</td>
+                <td>8</td>
+                <td>8</td>
+            </tr>
+
+            <tr>
+                <td colspan="4"  class="media" >Media das exatas</td>
+                <td class="media" id="media">16</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2" scope="col">humanas</td>
+                <td>historia</td>
+                <td>13</td>
+                <td>13</td>
+                <td>13</td>
+            </tr>
+
+            <tr>
+                <td>Geografia</td>
+                <td>6.5</td>
+                <td>11</td>
+                <td>9</td>
+            </tr>
+
+            <tr>
+                <td colspan="4" class="media"> media da exatas</td>
+                <td class="media" id="media2">11</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    
+</body>
+</html>
