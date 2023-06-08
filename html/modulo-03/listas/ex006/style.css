@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body{
+    background-color: #526262;
+}
+
+body > header,main{
+    background-color: #0e0d0d;
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px #ffffff32;
+
+main{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 5px white ;
+}
+main > p{
+    text-align: justify;
+}
+
+caption{
+    background-color: aqua;
+}
