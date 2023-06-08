@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+table{
+    border-collapse: collapse;
+    background-color: white;
+    margin: 4px;
+    margin: auto;
+}
+
+caption{
+    background-color: #4c94d3;
+    padding-top: 4px;
+}
+table > thead > tr > th{
+    border: 3px solid;
+    padding: 5px;
+}
+
+table > tbody > tr > td{
+    border: 3px solid;
+    padding: 5px;
+}
+
+.primeira,.terceira{
+    background-color: aqua;
+}
+.segunda,.quarta{
+    background-color:darkgrey;
+}
+
+.quinta{
+    background-color: rgb(134, 254, 248);
+}
+
+td{
+    text-align: center;
+}
