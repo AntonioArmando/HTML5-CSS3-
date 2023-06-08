@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+body{
+    max-width: 700px;
+    margin: auto;
+}
+
 table{
     border-collapse: collapse;
     background-color: white;
