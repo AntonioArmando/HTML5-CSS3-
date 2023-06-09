@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body > h1{
+    text-align: center;
+    max-width: 750px;
+}
+
+body > article{
+    border: 4px solid;
+    border-radius: 10px;
+    padding: 4px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.463);
+}
+
+div{
+    overflow-x: auto;
+}
+table{
+    border-collapse: collapse;
+}
+
+table > thead > tr > th{
+    border: 2px solid;
+    padding: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #e9efef;
+    text-align: center;
+}
+
+table > tbody > tr > td{
+    border: 2px solid;
+    padding: 3px;
+    text-align: right;
+}
+table > tbody > tr:nth-child(2n){
+    background-color: #878c8c;
+}
+
+table > tbody > tr > th{
+    border: 2px solid;
+    padding: 3px;
+}
