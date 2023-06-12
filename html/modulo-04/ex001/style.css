@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: dimgrey;
+    max-width: 700px;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    background-color: white;
+    padding: 1px;
+    max-width: 97%;
+    margin: auto;
+    box-shadow: 2px 2px 5px;
+}
+h1, header> p{
+    font-variant: small-caps;
+    margin-bottom: 0px;
+}
+main {
+    background-color: aliceblue;
+    width: 97%;
+    margin: auto;
+}
