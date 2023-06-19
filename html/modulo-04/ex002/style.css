@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+header{
+    border: 2px solid;
+    text-align: center;    
+    background-color: azure;
+    border-radius: 10px 10px 0px 0px;
+    padding: 4px;
+}
+
+main > article{
+    border: 2px solid;
+    margin-top: 10px;
+    background-color: azure;
+    padding: 4px;
+    width: 97%;
+    margin: auto;
+    margin-top: 0.5%;
+}
+.spancor{
+    color: rgb(14, 51, 237);
+}
+
+main > p{
+    text-align: justify;
+}
+
+main{
+    border: 2px solid;
+    margin-top: 7px;
+    padding: 2px;
+}
+
+aside{
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+}
+
+iframe{
+    display: inline-block;
+    width: 97%;
+    border: 2px dashed;
+    margin: auto;
+}

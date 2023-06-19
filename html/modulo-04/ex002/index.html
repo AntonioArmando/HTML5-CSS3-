@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>configurando iframe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>configurando iframe</h1>
+    </header>
+
+    <main>
+        <article>
+           <p>dentro do iframe coloca-se a tag a para caso o navegador nao nao suporte o iframe exiba o link do conteúdo </p>
+
+           <h2>exemplo de link no iframe</h2>
+           <code>
+            <pre>
+    &lt;iframe src="" frameborder="0">
+        <span class="spancor">&lt;a href="link">visite o meu site</a></span>
+    &lt;/iframe>
+            </pre>
+            <p><span class="spancor">o conteúdo do link so ira aparecer se o navegador nao for compatível com iframe. </span></p>
+           </code>
+        </article>
+    
+        <h2>configurações de borda iframe</h2>
+        <p>As bordas do iframe no html so  recebem dois parâmetros que são 0 e qualquer numero sendo que o;<br>
+        <span class="espaco"><strong>0 (zero)</strong></span> significa sem borda <br>
+
+        <span class="espaco"><strong>qualquer numero</strong></span> significa borda de 1px. <br> 
+        O tamanho das bordas do iframe podem se alteradas usando o style.
+        </p>
+
+        <aside>
+            <p>curso em vidio</p>
+            <iframe src="" frameborder="1">
+                <a href="">acesse o site</a>
+            </iframe>
+            
+        </aside>
+        <aside>
+            <p>estudonauta</p>
+            <iframe src="" frameborder="1">
+                <a href="">acesse o site</a>
+            </iframe>
+        </aside>
+    </main>
+</body>
+</html>
