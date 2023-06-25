@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body{
-    background-color: gray;
+    background-color: rgb(177, 176, 176);
 }
     
 h1{
@@ -9,6 +9,7 @@ h1{
 }
 iframe{
     display: inline-block;
-    width: 100%;
+    width: 50%;
+    height: 180px;
     margin: auto;
-}
+   border-color: black;
