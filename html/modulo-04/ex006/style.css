@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+body{
+    max-width: 750px;
+    margin: auto;
+    border: 1px solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3px;
+}
+
+header{
+    width: 98%;
+    margin: auto;
+    background-color: #000000;
+    color: white;
+    padding: 3px;
+    border: 1px solid;
+    border-radius: 7px;
+}
+header > h1{
+    text-align: center;
+    font-variant: small-caps;
+}
+header > p{
+    text-align: justify;
+}
+
+main{
+    margin-top: 10px;
+   text-align: justify;
+}

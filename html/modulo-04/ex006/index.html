@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seguranca nos iframe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Seguranca nos Iframe</h1>
+        <p>utilizar iframe é abrir a porta do seu site para terciários por isso precisamos colocar limites no que estes sates podem fazer dentro do nosso site principal</p>
+    </header>
+
+    <main>
+        <article>
+            <h2>Atributos para deixar iframe seguro </h2>
+            <h3>sandbox</h3>
+            <p> segundo a <a href="https://www.w3schools.com/tags/att_iframe_sandbox.asp " target="_blank">w3schools</a> O sandboxatributo habilita um conjunto extra de restrições para o conteúdo no iframe.
+            
+            <strong>sandbox="sandbox"  </strong> bloqueá o cadastro de formulários, script,apis etc.</p>
+
+            <h3>referrerpolitcy</h3>
+            <p>O referrerpolicy atributo especifica quais informações do referenciador usar ao buscar o recurso.  com esse atributo podemos especificar quais informações seram ou nao enviadas junto com a solicitação para a folha de estilo externa. <br>
+            o <strong>no-referer</strong> bloqueá qualquer envio de dados.
+
+            </p>
+        </article>
+        <iframe src="pagina/pagina.html" frameborder="2"  sandbox="sandbox"  referrerpolicy="no-referer"></iframe>
+        
+        <p>
+            <strong>O formulario acima nao ceita entrada ou captação de dados. </strong>
+             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea praesentium impedit nulla vitae blanditiis et assumenda eligendi non est consequuntur iste at facere, placeat, sed nemo, esse totam maxime neque!</p>
+    </main>
+</body>
+</html>
