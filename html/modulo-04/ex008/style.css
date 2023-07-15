@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+body{
+    background-color: #ffd900;
+
+}
+h1{
+    text-align: center;
+    font-variant: small-caps;
+}
+h2,h3{
+    font-variant: small-caps;
+}
+
+section{
+    background-image: linear-gradient(to right, #000000 40%, #09a509);
+    color: azure;
+    border: 1px solid wheat;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 0px 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span{
+    color: chocolate;
+}
+aside{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
