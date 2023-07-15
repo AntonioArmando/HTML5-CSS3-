@@ -1,0 +1,40 @@
+@charset "utf-8";
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: aqua;
+    max-width: 800px;
+}
+h1{
+    font-variant: small-caps;
+    text-align: center;
+}
+
+h2{
+    
+    font-variant: small-caps;
+}
+
+article{
+    background-image: linear-gradient(to bottom, black, #a8c4c8);
+    width: 97vw;
+    margin: auto;
+    color: white;
+    box-shadow: 2px 2px 2px ;
+    border-radius: 7px 0px;
+    padding: 1px;
+    text-align: justify;
+}
+
+span{
+    color: orange;
+}
+li{
+    color: #ffff01;
+}
+
+section > span{
+    color: #fd4203;
+}
