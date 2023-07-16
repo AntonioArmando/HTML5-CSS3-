@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+body{
+    background-color: #05ff05;
+}
+h1{
+    text-align: center;
+}
+
+aside{
+    background-image: linear-gradient(to right, black 50%, #76760c);
+    color: white;
+    padding: 8px;
+    font-family: monospace;
+    border: 2px solid;
+}
+
+span{
+    color: limegreen;
+}
