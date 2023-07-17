@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>métodos GET e POST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>métodos GET e POST em formularás</h1>
+
+    <article>
+        <h2>GET  e POST</h2>
+        <p>o método <strong>get</strong> mostra as informações de cadastro na url.</p>
+
+        <p>o método <strong>post</strong> nao mostra as informações de cadastro na url mais podem ser acessadas facilmente pelo dev tool por exemplo..</p>
+
+        <h2>Nota:</h2>
+        <p>para contas bancarias, senhas, números telefónicos usa-se o <strong>HTTPS</strong>.</p>
+    </article>
+
+    <form action="" method="post">
+        <p>
+            <label for="inome">
+
+                NOME: <input type="text" name="nome" id="inome">
+            </label>
+        </p>
+
+        <p>
+            <label for="isobrenome">
+
+                SOBRENOME: <input type="text" name="sobrenome" id="isobrenome">
+            </label>
+        </p>
+
+        <p>
+            <label for="isenha">
+            
+                SENHA: <input type="password" name="senha" id="isenha">
+            </label>
+        </p>
+
+        <p>
+            <input type="submit" value="submeter">
+        </p>
+    </form>
+
+    <h2>Usamos;</h2>
+
+    <p><strong>get</strong> quando os dados não sao cessível isto nao tem nada comprometedor no formulário</p>
+
+    <p> <strong>post</strong> usamos quando o numero de dados recolhidos ultrapassar 3000bts ou quando quanto o formulário tiver dados cessível.</p>
+    
+</body>
+</html>

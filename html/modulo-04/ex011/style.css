@@ -1,0 +1,26 @@
+@charset "utf-8";
+body{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+h1{
+    text-align: center;
+    font-variant: small-caps;
+}
+h2{
+    font-variant: small-caps;
+}
+span{
+    color: chartreuse;
+}
+
+article{
+    background-image: linear-gradient(to right, #474141, #ff0000);
+    font-family: 'Courier New', Courier, monospace;
+    width: 96%;
+    margin: auto;
+    padding: 7px;
+    border-radius: 6px 0px;
+    box-shadow: 2px 2px 2px;
+}

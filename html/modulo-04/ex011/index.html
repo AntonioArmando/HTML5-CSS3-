@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caixa de texto e de senha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>caixa de texto e de senha</h1>
+    
+    <article>
+        <h2>O que aprendi de novo</h2>
+        <p><span>required </span> torna o prechimento</p>
+
+        <p><span>minlength</span> ou <span>maxlength</span> configura o numero de caracteres de acordo com o valor definido</p>
+
+        <p><span>size</span> configura o tamanho da caixa do formulário</p>
+
+        <p><span>autocomplete=""</span> ajuda  os navegadores a intender com o que completar a caixa</p>
+
+
+
+        
+    </article>
+    <form action="" method="post" autocomplete="on">
+        <p>
+            <label for="nome">Nome <input type="text" name="nome" id="nome"></label>
+        </p>
+        
+        <p>
+            <label for="cidade">
+                cidade <input type="text" required minlength="5" maxlength="15" placeholder="nome da cidade"  size="23" name="cidade" id="cidade" autocomplete="country-name">
+            </label>
+        </p>
+
+        <p>
+            <label for="password">
+                password <input type="password" name="password" id="password">
+            </label>
+
+    
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+        </p>
+    </form>
+</body>
+</html>
