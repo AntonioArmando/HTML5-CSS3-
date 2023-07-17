@@ -26,7 +26,7 @@
     </article>
     <form action="" method="post" autocomplete="on">
         <p>
-            <label for="nome">Nome <input type="text" name="nome" id="nome"></label>
+            <label for="nome">Nome <input type="text" name="nome" id="nome" required maxlength="15" minlength="7" size="23" placeholder="seu nome" autocomplete="username" ></label>
         </p>
         
         <p>
@@ -37,7 +37,7 @@
 
         <p>
             <label for="password">
-                password <input type="password" name="password" id="password">
+                password <input type="password" name="password" id="password" placeholder="senha" autocomplete="new-password" required minlength="6" maxlength="9"> 
             </label>
 
     
@@ -45,6 +45,9 @@
         <p>
             <input type="submit" value="enviar">
         </p>
+        <label for=" "></label>
+
+
     </form>
 </body>
-</html>
+</html
