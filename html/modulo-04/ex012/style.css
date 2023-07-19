@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+h1{
+    text-align: center;
+    margin-top: auto;
+    font-variant: small-caps;
+    
+}
+h2,h3{
+    font-variant: small-caps;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+article > p{
+    font-family: monospace;
+}
+
+article{
+    background-image: linear-gradient(to right, black 40%, #0b730b);
+    color: white;
+    padding: 7px;
+    border-radius: 0px 14px;
+    box-shadow: 2px 2px 2px black;
+}
+
+
+div{
+    margin-top: 10px;
+}

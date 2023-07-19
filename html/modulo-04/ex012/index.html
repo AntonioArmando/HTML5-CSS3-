@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elementos number month date and time</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Elementos Number Month Date and Time</h1>
+
+    <article>
+        <h2>O que aprendi de novo?</h2>
+        <h3>Novos input!</h3>
+
+        <p><strong>number</strong> aceita somente números.</p>
+        <p><strong>Date</strong> cria formulado para dia mẽs e ano.</p>
+        <p><strong>month</strong> cria formulara para dia mes e o ano.</p>
+        <p><strong>time</strong> cria formulário para colocar hora</p>
+
+        <h3>Atributos para input:number</h3>
+        <p><strong>step</strong> usado para colocar números flutuantes</p>
+        <p><strong>valor</strong> coloca o valor pre definido na caixa</p>
+    </article>
+
+    <form action="#" method="post">
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required min="10" maxlength="25" autocomplete="name" placeholder="nome completo">
+        </div>
+
+        <div>
+            <label for="idade">Idade</label>
+            <input type="number" name="idade" id="idade" placeholder="sua idade" maxlength="3" max="200" required value="">
+        </div>
+
+        <div>
+            <label for="dia">Dia do casamento</label>
+            <input type="date" name="dia" id="dia" required>
+        </div>
+
+        <div>
+            <label for="mes">Mẽs do casamento</label>
+            <input type="month" name="mes" id="mes" required>
+        </div>
+
+        <div>
+            <label for="hora">Hora do casamento</label>
+            <input type="time" name="hora" id="hora">
+        </div>
+
+        <div>
+            <div><input type="submit" value="enviar"></div>
+            <div><input type="reset" value="limpar"></div>
+        </div>
+
+        
+    </form>
+    
+            
+</body>
+
+</html
