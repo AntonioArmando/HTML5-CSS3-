@@ -10,6 +10,21 @@
 <body>
     <h1>Check box e Radio Button</h1>
 
+    <article>
+       <table>
+        <caption>o que aoprendi de nono?</caption>
+        <tr>
+            <th>checkbox</th>
+            <td>permite checar a caixa com um certo</td>
+        </tr>
+
+        <tr>
+            <th>radio</th>
+            <td>permite escolher uma unica opção de varias, a labol de todas as opções deve ter o mesmo nome!</td>
+        </tr>
+       </table>
+    </article>
+
     <form action="" method="post">
         <p>
             <label for="nome">nome</label>
@@ -18,7 +33,7 @@
 
         <p>
             <label for="nasci">Ano de nascimento</label>
-            <input type="date" name="nasci" id="nasci">
+            <input type="date" name="nasci" id="nasci" placeholder="12/12/2023">
         </p>
 
         <p>
@@ -34,18 +49,20 @@
             <strong>esporte favoritos </strong> <br>
 
             <label for="futebol">futebol</label>
-            <input type="checkbox" name="futebol" id="futebol"> <br>
+            <input type="checkbox" name="futebol" id="futebol"> 
         
             <label for="voleibol">voleibol</label>
             <input type="checkbox" name="voleibol" id="voleibol"> <br>
 
             <label for="basquetebol">basquetebol </label>
-            <input type="checkbox" name="basquetebol" id="basquetebol"> <br>
+            <input type="checkbox" name="basquetebol" id="basquetebol" checked> 
 
             <label for="Tênis ">Tênis </label>
             <input type="checkbox" name="Tênis " id="Tênis ">
         </p>
     </form>
+
+    <p><strong>checked</strong> no checkbox ja vem com a opção marcada</p>
 
 </body>
 </html>
