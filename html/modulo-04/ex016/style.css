@@ -1,0 +1,51 @@
+@charset "utf-8";
+*{
+  margin: 0px;  
+}
+
+header{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-variant: small-caps;
+    padding: 20px;
+}
+
+main{
+    background-color: #6495ed;
+    margin-top: 20px;
+    padding: 7px;
+    
+}
+
+article > h2{
+    font-variant: small-caps;
+    margin: 4px;
+}
+article > p{
+    line-height: 1.3em;
+}
+
+article.artigo{
+    background-color: #d7cfcf;
+    display: inline-block;
+    text-align: justify;
+    width: 25%;
+    margin-right: 8px;
+}
+
+article.forme{
+    background-color: #d7cfcf;
+    display: inline-block;
+    position: absolute;
+    width: 72%;
+}
+
+article.forme > label,input{
+    line-height: 2px;
+    margin: 10px;
+}
+textarea{
+    width: 98%;
+    height: 50px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elemento select</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Elemento Select</h1>
+    </header>
+
+    <main>
+        <article class="artigo">
+            <h2>Select</h2>
+            <p>permite criar seletor em formulário, as opções sao colocadas numa tag com o nome <strong>option</strong></p> <br>
+
+            <h2>Option</h2>
+            <p>tem as informações que iram aparecer quando clicado no seletor.</p> <br>
+
+            <P><strong>o label dentro optgroup</strong> <br> serve para dar titulo ao grupo</P> <br>
+
+            <p>
+                <strong>data liste</strong> cria uma lista de sugestões no campo input de um formulário, a tag <strong>datalist</strong> deve ter o id com o nome que ira ser colocado no parâmetro list que é adicionado ao input txt.
+            </p>
+
+            <p><strong>textarea</strong>cria uma caixa de mensagem.</p>
+        </article>
+
+        <article class="forme">
+            <h2>select</h2>
+            <form action="" method="post">
+                <p>
+                    <label for="nome">nome: </label>
+                    <input type="text" name="nome" id="nome" placeholder="seu nome completo" required>
+                </p>
+
+
+                <p>
+                    <label for="prov">Província: </label>
+                    <select name="prov" id="prov">
+
+                       
+                        <optgroup label="PROVINCIA DE MAPUTO">
+                            <option >MAPUTO</option>
+                            <option > MATOLA</option>
+                            <option  selected>MARRACUENE</option>
+                            <option >NAMAHACHA</option>
+                            <option >KATEMBE</option>
+                        </optgroup>
+
+                    </select>
+                    
+                </p>
+            </form>
+
+            <h2>datalista</h2>
+            <form action="" method="post">
+                <label for="prof">profissão: </label>
+                <input type="text" name="prof" id="prof" required maxlength="25" list="listprof" placeholder=" sua profissão">
+                <datalist id="listprof">
+                    <option >LADRÃO </option>
+                    <option >CURANDEIRO </option>
+                    <option >VETERINÁRIO </option>
+                    <option >AGRICULTOR </option>
+                    <option >AVICULTOR </option>
+                    <option >MEDICO </option>
+                    <option >MÉDIO </option>
+                    <option >PEDREIRO </option>
+                    <option >PASTOR </option>
+                    <option >JARDINEIRO </option>
+                    <option >TOCADOR </option>
+                    <option >CARPINTEIRO </option>
+                    <option >ELETRICISTA </option>
+                    <option >DESENVOLVEDOR WEB </option>
+                    <option >PROGRAMADOR </option>
+                    <option >PROFESSOR </option>
+                </datalist>
+            </form>
+
+            <h2>textarea</h2>
+                <form action="" method="post">
+                    <label for="txt">informações adicionais:</label>
+                    <textarea name="text" id="txt" cols="30" rows="10"></textarea>
+                </form>
+        </article>
+    </main>
+    
+</body>
+</html>
