@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elementos color e range</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Elementos Color e Range</h1>
+    </header>
+
+    <main>
+        <article class="nota">
+            <p>
+                <strong>color</strong> cria uma caixa para selecionar cores em um formulário.
+            </p>
+
+            <p>
+                <strong>range</strong> cria um livel <q>uma barra que pode ser ajustado de acordo com os valores indicados</q>. O valor máximo do nível é 100. <br>
+                E também podemos colocar o valor inicial usando o atributo valor. 
+            </p>
+
+            <p>
+                <strong>file</strong> permite enviar arquivos como imagens, audio, video etc.
+                Mais isso torna obrigatório usar o método post.
+            </p>
+
+        </article>
+
+        <article class="formulario">
+            <h2>Formulário</h2>
+
+            <form action="" method="post">
+                <p>
+                    
+                    <label for="nome">Nome; </label>
+                    <input type="text" name="none" id="nome" placeholder="escreva seu nome" required maxlength="30" minlength="4" autocomplete="name" >        
+
+                </p>
+
+                <p>
+                    <label for="ava">Avaliação; </label>
+                    <input type="range" name="ava" id="ava" max="20" value="5">
+                </p>
+
+                <p>
+                    <label for="arq">Arquivo; </label>
+                    <input type="file" name="arq" id="arq">
+                </p>
+
+                <p>
+                    <label for="col">Cor; </label>
+                    <input type="color" name="col" id="col" size="20">
+                </p>
+
+                <p>
+                    <input type="submit" value="submeter">
+                    <input type="reset" value="limpar">
+                </p>
+            </form>
+
+        </article>
+
+        <aside>
+            <p>
+                <strong>range</strong> cria um nível.
+            </p>
+            <p>
+                <strong>file</strong> permite enviar os arquivos no formulário.
+            </p>
+            <p>
+                <strong>color</strong> cria um seletor de cores no formulário.
+            </p>
+        </aside>
+    </main>
+    
+</body>
+</html>
