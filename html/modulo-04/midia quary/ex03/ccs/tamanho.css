@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+body{
+  background-color: #ffffffa4;;
+}
+
+@media  (min-width: 308px) and (max-width: 500px) {
+  body {
+    font-size: 18px;
+    background-image: url(../img/back-tablet.jpg);
+    
+
+  }
+
+  img.phone{
+    display: none;
+  }
+  img.tablet{
+    display: block;
+
+  }
+  
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+    html{
+        background-image: url(../img/back-print.jpg);
+        font-size: 22px;
+        
+    }
+    
+    img.print{
+        display: block;
+       
+    }
+    img.phone{
+        display: none;
+    }
+}
+
+@media (min-width:700px) and (max-width:800px) {
+
+  
+}
