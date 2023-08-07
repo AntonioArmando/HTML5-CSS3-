@@ -1,11 +1,8 @@
 @charset "utf-8";
 
-body{
-  background-color: #ffffffa4;;
-}
 
 @media  (min-width: 308px) and (max-width: 500px) {
-  body {
+  html {
     font-size: 18px;
     background-image: url(../img/back-tablet.jpg);
     
@@ -39,6 +36,34 @@ body{
 }
 
 @media (min-width:700px) and (max-width:800px) {
+  html{
+    background-image: url(../img/back-pc.jpg);
 
-  
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4em;
+  }
+
+  img.phone{
+    display: none;
+  }
+ img.pc{
+  display: block;
+ }
+}
+
+@media  (min-width:800px) {
+  html{
+    background-image: url(../img/back-tv.jpg);
+    font-size: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  img.phone{
+    display: none;
+  }
+
+  img.tv{
+    display: block;
+  }
 }
