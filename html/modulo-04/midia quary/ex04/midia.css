@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+
+@media (min-width:580px) {
+    header > nav > ul > li{
+        display: inline-block;
+    }
+    header > p{
+        display: none;
+    }
+    aside > h2{
+        text-align: center;
+
+    }
+
+    main > article.importante{
+        
+        display: inline-block;
+        width: 40%;
+    }
+
+    section.grande{
+        display: inline-block;
+        position: relative;
+        margin-left: 15px;
+        width: 55%;
+    }
+    section.pequena{
+        display: none;
+    }
+     img{
+        width: 100%;
+     }
+    
+}
+
+@media (min-width:850px) {
+
+    body{
+        max-width: 850px;
+        margin: auto;
+    }
+    
+    
+     
+    
+
+    
+}
